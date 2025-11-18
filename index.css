@@ -1,0 +1,44 @@
+.bg-image {
+  background-image: url("./assets/bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 100px !important;
+  width: 98% !important;
+  background-repeat: repeat-x;
+  box-sizing: border-box;
+
+}
+.bg-image .logo-content{
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-color: #F19A2A;
+    width: 2rem;
+    height: 0.8rem;
+}
+.slogan1, .slogan2 , .slogan3{
+    color: #F7C14A;
+    width: 450px;
+    font-weight: bold;
+}
+.slogan1{
+    font-size:2.5rem;
+}
+.slogan2{
+    font-size:3rem;
+}
+.slogan3{
+    font-size:3.5rem;
+}
+
+.image-section img{
+    height: 220px;
+}
+
+.image-section .text-bold{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+}
+
